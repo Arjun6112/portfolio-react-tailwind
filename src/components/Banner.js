@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/avatar.svg";
+import Image from "../assets/me-portfolio.jpeg";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -78,7 +78,7 @@ const Banner = () => {
               </a>
             </motion.div>
           </div>
-          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
+          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mix-blend-multiply">
             <img src={Image} alt="" />
           </div>
         </div>
